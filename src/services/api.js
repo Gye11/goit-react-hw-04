@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "BURAYA_UNSPLASH_KEY";
+const API_KEY = "kgcqgZ4xMHmLJnBvu3mhP8ZgkCWooWXEaU2acGqQSr0";
 
 export const fetchImages = async (query, page) => {
   const response = await axios.get("https://api.unsplash.com/search/photos", {
