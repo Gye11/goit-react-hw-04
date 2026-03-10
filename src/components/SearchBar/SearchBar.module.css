@@ -7,25 +7,25 @@
 
 .form {
   display: flex;
-  width: 400px;
+  align-items: center;
+  width: 500px;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.searchBtn {
+  border: none;
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .input {
   flex: 1;
-  padding: 10px;
   border: none;
   outline: none;
+  padding: 10px;
   font-size: 16px;
-}
-
-.button {
-  padding: 10px 20px;
-  border: none;
-  background-color: #303f9f;
-  color: white;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #283593;
 }

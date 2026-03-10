@@ -20,6 +20,10 @@ export default function SearchBar({ onSubmit }) {
   return (
     <header className={css.header}>
       <form className={css.form} onSubmit={handleSubmit}>
+        <button type="submit" className={css.searchBtn}>
+          🔍
+        </button>
+
         <input
           className={css.input}
           type="text"
@@ -29,10 +33,6 @@ export default function SearchBar({ onSubmit }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-
-        <button type="submit" className={css.button}>
-          Search
-        </button>
       </form>
     </header>
   );
